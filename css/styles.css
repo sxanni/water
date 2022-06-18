@@ -1,0 +1,47 @@
+/* body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    background-color: #FDFDFD;
+    color:white;
+  }
+  
+  div, input, a, button, textarea, ul, li {
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 100%;
+    width: 760px;
+    margin: 0 auto;
+  }
+
+  input[type="text"],
+textarea {
+  border: 1px solid #EEE;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.1),0 1px 4px rgba(0,0,0,.1);
+}
+
+textarea {
+  min-height: 100px;
+}
+
+h1,h4 {
+  font-weight: normal;
+  margin: 10px 0;
+} */
+#logo{
+    padding:20px ;
+    max-width: 35%;
+    height: auto;
+}
+#hydrate{
+    padding:2px ;
+    max-width: 54%;
+    height: auto;
+}
