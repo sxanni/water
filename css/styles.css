@@ -64,6 +64,10 @@ h1,h4 {
   iframe{
     margin-bottom: 20px;
   }
+  .discount{
+    opacity: 20%;
+    font-size: 100px;
+  }
   .water{
     font-size: 100px;
   }
@@ -72,4 +76,7 @@ h1,h4 {
   }
   .our-team{
     letter-spacing: 2px;
+  }
+  .hr{
+    border-top: 10px solid
   }
