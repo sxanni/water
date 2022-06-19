@@ -53,6 +53,23 @@ h1,h4 {
   background-attachment: fixed;
   background-position: center;}
 
+.about-header{ 
+  background-image: url('./underwaterbabe.gif');
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;}
+
   iframe{
     margin-bottom: 20px;
+  }
+  .water{
+    font-size: 100px;
+  }
+  .surface{
+    letter-spacing: 2px;
+  }
+  .our-team{
+    letter-spacing: 2px;
   }
