@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
   <body>
+
+    <div class="cursor"></div>
     <!-- FIXED NAVIGATION -->
 
     <nav
@@ -46,7 +48,7 @@
 
             <ul class="navbar-nav justify-content-end mx-5 pl-5">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html"
+                <a class="home nav-link text-bg-light" href="index.html"
                   >HOME 
                   <!-- <span class="sr-only">(current)</span> -->
                   </a>
@@ -88,7 +90,7 @@
 
     <!-- landing page and header section -->
 
-    <header class="mt-5 pt-5">
+    <header class="my-5 pt-5">
       <div class="container text-left mt-5 pt-5">
         <div class="row mt-5">
           <div class="col-md-7 col-sm-12 mt-5">
@@ -117,7 +119,7 @@
             <img
               src="img/stayhydrated.gif"
               alt=""
-              class="pl-3 mb-4"
+              class="pl-3 mb-4 mt-5"
               id="hydrate"
             />
           </div>
@@ -194,6 +196,12 @@
       </p>
     </footer>
 
+
+
+    <!-- gsap  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    
+    <!-- bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
@@ -203,6 +211,7 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
       integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
       crossorigin="anonymous"
-    ></script>
+      ></script>
+      <script src="js/main.js"></script>
   </body>
 </html>
