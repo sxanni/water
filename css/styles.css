@@ -37,11 +37,22 @@ h1,h4 {
 } */
 #logo{
     padding:20px ;
-    max-width: 35%;
+    max-width: 100px;
     height: auto;
+    
 }
 #hydrate{
     padding:2px ;
     max-width: 54%;
     height: auto;
 }
+.contact-bdy{ 
+  background-image: url('./float\ ball\ dizzy.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;}
+
+  iframe{
+    margin-bottom: 20px;
+  }
